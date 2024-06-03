@@ -4,14 +4,13 @@ public class PowerCalculator {
         if (exponent < 0) {
             throw new IllegalArgumentException("Exponent must be a non-negative number");
         }
-
-        // Calculate the power
+        // Calculate the power.
         double result = Math.pow(base, exponent);
         return result;
     }
 
     public static void main(String[] args) {
-        // Example usage
+        // Example usage0
         double result = calculatePower(2, 3); // Calculate 2 to the power of 3
         System.out.println(result); // Display the result
     }
