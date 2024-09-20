@@ -1,6 +1,7 @@
+// 00
 public class PowerCalculator {
     public static double calculatePower(double base, int exponent) {
-        // Check if the exponent is positive.02210313210
+        // Check if the exponent is positive.
         if (exponent < 0) {
             throw new IllegalArgumentException("Exponent must be a non-negative number");
         }
