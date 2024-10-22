@@ -1,4 +1,4 @@
-// 00
+// 01
 public class PowerCalculator {
     public static double calculatePower(double base, int exponent) {
         // Check if the exponent is positive.
